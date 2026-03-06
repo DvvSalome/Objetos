@@ -1,0 +1,18 @@
+{
+  "name": "object-generator-gather",
+  "version": "1.0.0",
+  "description": "Generador de objetos 3D estilo Gather con Meshy API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.98.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.7.0"
+  }
+}
